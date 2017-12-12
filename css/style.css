@@ -7,6 +7,10 @@
     font-family: 'Cartoon2';
     src: url('../Fonts/Cartoonish-Italic.ttf');
 }
+@font-face {
+    font-family: 'Banzaï';
+    src: url('../Fonts/Bungasai.ttf');
+}
 body{
   position: absolute;
   height: 100%;
@@ -45,6 +49,7 @@ nav ul li{
   margin-right: auto;
   font-family: Cartoon;
   font-size: xx-large;
+  line-height: 250%;
 }
 nav ul li:hover{
   font-family: Cartoon2;
@@ -60,9 +65,10 @@ height: 100%;
 width:100%;
 }
 .fndhome{
+  position: absolute;
   background-image: url(../img/gfl.jpg);
   height: 100%;
-  width:100%;
+  width:80%;
   background-attachment: fixed;
 /*  filter: blur(2px);
   opacity: .6; /* effet de flou (à voir aprés)*/
@@ -73,11 +79,34 @@ width:100%;
   transition-duration: 2s;
 }/*enlévement fou au survole ( à voir aprés)*/
 .conthome{
-  position: relative;
+  position: absolute;
+  background-color: rgba(19, 48, 88, 0.73);
   width: 50%;
-  /*left: 2%;
-  bottom: 2%;*/
+  left: 3%;
+  bottom: 3.75%;
+  border-style: groove;
+  border-color: limegreen;
+  padding: 1.5%;
 }
 .conthome h1{
   margin-top: 0%;
+  font-family: Banzaï;
+  text-decoration-line: underline;
+}
+.conthome p{
+  text-align: justify;
+}
+.bouH{
+  background-image:linear-gradient(black, grey);
+  color: white;
+  border: 2px outset rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1%;
+}
+.bouH:active{
+  border-style: inset;
+}
+#produit{
+  height: 100%;
+  width: 100%;
 }
