@@ -104,13 +104,12 @@ nav ul li a{
   border-style: inset;
 }
 /*************** Prod ***************/
+#produit{
+  background-image: linear-gradient(rgb(111, 195, 86),rgb(203, 212, 104));
+}
+
 #produit h2{
   margin-top: 0%;
-}
-.fndprod{
-  /*  background-image: linear-gradient(couleur1, couleur 2);*/
-}
-#produit h2{
   float: right;
 }
 .Gprod{
@@ -120,9 +119,10 @@ nav ul li a{
   justify-content: space-around;
 }
 .prod{
-  border: 1px solid red;
+  border: 1px solid black;
   height: auto;
   width: 20%;
+  box-shadow: 6px 6px 6px black,-2px -2px 2px white;
 }
 .prod h3{
   margin:0%;
@@ -137,3 +137,38 @@ nav ul li a{
   padding-left: 5%;
   padding-top: 5%;
 }
+/*************** Boutique ***************/
+.fndbout{
+  position:relative;
+  height: 100%;
+  background-image: url(../img/flower19.jpg);
+}
+.contbout{
+  position:absolute;
+  float: right;
+  background-color: rgba(19, 48, 88, 0.73);
+  width: 50%;
+  right: 3%;
+  bottom: 3.75%;
+  border-style: groove;
+  border-color: limegreen;
+  padding: 1.5%;
+}
+.contbout h2{
+  margin-top: 0%;
+  font-family: Banzaï;
+  text-decoration-line: underline;
+}
+.contbout p{
+  text-align: justify;
+}
+/*.boubou1{
+  background-image:linear-gradient(black, grey);
+  color: white;
+  border: 2px outset rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 1%;
+}
+.bouH:active{
+  border-style: inset;
+}*/
