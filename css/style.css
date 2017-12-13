@@ -120,14 +120,18 @@ nav ul li a{
   padding-top: 15%;
 }
 .prod{
+  background-color: rgb(210, 153, 199);
   border: 1px solid black;
   height: auto;
   width: 20%;
   box-shadow: 6px 6px 6px black,-2px -2px 2px white;
+  color: black;
 }
 .prod h3{
   margin:0%;
   float: left;
+  padding-left: 10%;
+  padding-top: 10%;
 }
 .prod p{
   float: right;
